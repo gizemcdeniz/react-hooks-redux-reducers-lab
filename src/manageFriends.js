@@ -1,7 +1,6 @@
-const initialState = { friends: [] }
+const initialState = { friends: [] };
 
 export function manageFriends(state = initialState, action) {
-  // your code here
   switch(action.type) {
     case "friends/add":
       return {
